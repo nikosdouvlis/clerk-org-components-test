@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       // clerkJSUrl={"https://js.lclclerk.com/npm/clerk.browser.js"}
       {...pageProps}
     >
-      <AppBar onChangeTheme={(e) => setSelectedTheme(e.target.value as any)} onToggleDark={onToggleDark} />
+      <AppBar onChangeTheme={(e: any) => setSelectedTheme(e.target.value as any)} onToggleDark={onToggleDark} />
       <Component {...pageProps} />
     </ClerkProvider>
   );
