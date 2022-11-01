@@ -1,0 +1,25 @@
+{
+  "name": "orgs-component-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.5.6-staging.2",
+    "@clerk/themes": "^1.2.20",
+    "@types/node": "18.11.8",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "next": "12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
